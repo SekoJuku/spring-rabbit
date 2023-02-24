@@ -1,0 +1,13 @@
+server:
+  port: 8007
+spring:
+  rabbitmq:
+    host: localhost
+    password: guest
+    port: 15672
+    username: guest
+    exchange: user.exchange
+    queue: user.queue
+    reply-queue: user.reply-queue
+    routingkey: user.routingkey
+    reply-routingkey: user.reply-routingkey
